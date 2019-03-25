@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /**** Header ****/
+
+  header {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url('images/architecture-bay-bridge.jpg');
+  }
+  
+  .my-title  {
+    position: relative;
+    font-family: 'Sarpanch', sans-serif;
+    text-transform: uppercase;
+    width: 40%;
+    top: 15vh;
+    margin: auto;
+    color: #AD1809;
+    font-size: 120px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Lucida Console', sans-serif;
+    color: #AD1809;
+    padding: 30px;
+  }
+  
+  /******* Menu *******/
+  
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(170, 168, 168);
+    z-index: 99;
+  }
+  
+  nav  ul {
+    list-style: none;
+    float: none;
+    text-transform: uppercase;
+    font-family: 'Lucida Console', sans-serif;
+    margin: 15px auto;
+  }
+  
+  nav  li {
+    display: inline;
+    padding-right: 25px;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  img.logo {
+    max-height: 80px;
+    padding: 5px;
+    top: 10px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+
+  .row {
+    margin-top: 50px;
+  }
+  
+  .section-image {
+    max-height: 400px;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: justify;
+    min-height: 100vh;
+    text-transform: uppercase;
+    font-family: 'Lucida Console', sans-serif;
+  }
+  
+  #section1 {
+    background-color: #000000;
+    font-family: 'Lucida Console', sans-serif;
+    color: white;
+  }
+  
+  #section2 {
+    background-color: #000000;
+    font-family: 'Lucida Console', sans-serif;
+    color: white;
+  }
+  
+  #section3 {
+    background-color: #000000;
+    font-family: 'Lucida Console', sans-serif;
+    color: white;
+  }
+  
+  #section4 {
+    background-color: #000000;
+    font-family: 'Lucida Console', sans-serif;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: #AD1809
+  }
+  
+  /******* Footer *******/
+  
+  footer {
+    position:absolute;
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(170, 168, 168);
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
